@@ -5,30 +5,37 @@ img {
 #profil{
     border: 2px solid black;
     margin-bottom: 5px;
+
 }
 
 #keahlian{
     border: 2px solid black;
     margin: 10px;
     padding: 20px;
-  font-size: 30px;
+    font-size: 30px;
+    flex-direction: row;
+    display: flex;
+
 }
 
 .html{
     border: 2px solid black;
-    display: flex;
+    margin-right: 20px;
 }
 
+.css{
+    border: 2px solid black;
+    margin-right: 20px;
+}
 
+.javascript{
+    border: 2px solid black;
+    margin-right: 20px;
+}
 
-
-
-
-
-
-
-
-
+li a{
+    display: inline-block;
+}
 
 form {
   border-radius: 5px;
@@ -50,7 +57,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #595c59;
   color: white;
   padding: 14px;
   margin: 8px 0;
@@ -61,4 +68,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #1136db;
+}
+
+footer{
+    
 }
