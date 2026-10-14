@@ -10,33 +10,42 @@
     <header class="navbar">
             <nav>
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#profil">profil</a></li>
+                    <li><a href="#keahlian">keahlian</a></li>
+                    <li><a href="#form">form</a></li>
                 </ul>
             </nav>
     </header>
 
-    <main>
+    <main class="container">
         <section>
-            <img src="assets/fotoProfile.jpg" alt="fotoProfile">
-            <p>Raziq Muflih</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <div id="profil">
+                <img src="assets/fotoProfile.jpg" alt="fotoProfile" width="50%" height="50%">
+                <p>Raziq Muflih</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            
 
-            <keahlian>
+            <aside id="keahlian">
                 <h3>keahlian</h3>
-                <p>
+                <p class="html">
                     <img src="assets/html.png" alt="gambar html">html <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="css">
                     <img src="assets/css.png" alt="gambar css">css <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p class="javascript">
                     <img src="assets/javascript.png" alt="gambar javascript">javascript <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-            </keahlian>
+            </aside>
         
-            <form action="/action_page.php">
+            <form action="/action_page.php" id="form">
                 <label for="name">name</label><br>
-                    <input type="text" id="name" name="name"><br>
+                    <input type="text" id="name" name="name" required><br>
                 <label for="pesan">pesan</label><br>
-                    <input type="text" id="pesan" name="pesan"><br>
+                    <input type="text" id="pesan" name="pesan" required><br>
+                <label for="email">email</label><br>
+                    <input type="email" id="email" name="email" required><br>
                 <input type="submit" value="Submit">
             </form> 
         </section>
